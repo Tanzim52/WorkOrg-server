@@ -200,7 +200,7 @@ app.put('/users', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Task Management API is running!');
+    res.send('WebOrg Backend is running!');
 });
 
 server.listen(port, () => {
